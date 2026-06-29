@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR2k0177/v1
+canonical_location: https://kanripo.org/bkk/KR2k0177/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 湘中記
+  identifiers:
+    krp: KR2k0177
+  tags:
+    kr-categories: KR2k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR2k0177.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR2k0177_001.yaml, hash: 'sha256:d4ecb01c47c1d8432e70b807909f8cff736a33b9afa7fabcd46b512afba642f9'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2k0177_001.markers.yaml, hash: 'sha256:771a6c907cf0cef2619554da894396e0d7c1ba9ef5619acf2a27ed83ba72542d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2k0177_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 260
+  label: 湘中記羅含
+  type: section
+  level: 1
+hash: sha256:6bf32ee7ab5836f0e16f07d12b90dd3e1fefcde266cd5f2326f58520d7b7e16c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
